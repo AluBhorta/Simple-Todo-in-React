@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.todoList {
+  background-color: #ffeeee;
+  margin: auto;
+  width: 70%;
+  padding: 1rem;
+  border: 1px #666 solid;
+}
+
+.todoList h1 {
+  text-align-last: center;
+  margin-bottom: 2rem;
+}
+
+.todoItem .completed {
+  text-decoration: line-through;
+  background-color: rgb(226, 226, 226);
+  text-decoration-style: wavy;
+  /* font-style: italic; */
+}
